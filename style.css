@@ -1,0 +1,44 @@
+body {
+    border: solid 1px black;
+}
+
+.headtop {
+    border: solid 1px green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maybedelicious {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+#greeting {
+
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+
+}
+
+#delicious {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#saying {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.communication {
+    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13em;
+}
