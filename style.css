@@ -1,24 +1,17 @@
 body {
-    border: solid 1px black;
     padding: 1em;
     align-items: center;
-    width: 50%;
+    width: 60%;
 }
 
 .headtop {
-    border: solid 1px green;
     display: flex;
     justify-content: space-between;
 }
 
 .maybedelicious {
-    border: 1px solid red;
     display: flex;
     align-items: center;
-}
-
-#greeting {
-
 }
 
 #logo {
@@ -39,7 +32,6 @@ body {
 }
 
 .communication {
-    border: 1px solid purple;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +39,6 @@ body {
 }
 
 .print {
-    border: solid 1px red;
     height: 150px;
 }
 
@@ -57,8 +48,7 @@ body {
 }
 
 #cake {
-    border: 1px solid purple;
-    width: 634px;
+    width: 758px;
 }
 
 .instructions {
@@ -66,13 +56,40 @@ body {
 }
 
 .list {
-    background-image: url("assets/list-bg.png");
-    
+    background-image: url("assets/list-bg.png"); 
 }
-
 .ingredients {
     display: grid;
     grid-template-columns: 200px 200px;
-    border: 1px solid goldenrod;
     justify-content: space-evenly;
+}
+
+#strikeOne {
+    text-decoration: line-through;
+}
+
+#strikeTwo {
+    text-decoration: line-through;
+}
+
+.author {
+    display: flex;
+    height: 75px;
+}
+
+#share {
+    background-color: rgb(131, 65, 12);
+    color: white;
+    
+}
+
+.forknknife {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.bottom {
+    text-align: center;
 }
