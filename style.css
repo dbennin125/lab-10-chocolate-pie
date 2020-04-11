@@ -1,5 +1,8 @@
 body {
     border: solid 1px black;
+    padding: 1em;
+    align-items: center;
+    width: 50%;
 }
 
 .headtop {
@@ -41,4 +44,35 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 13em;
+}
+
+.print {
+    border: solid 1px red;
+    height: 150px;
+}
+
+#printbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cake {
+    border: 1px solid purple;
+    width: 634px;
+}
+
+.instructions {
+    text-indent: 20px;
+}
+
+.list {
+    background-image: url("assets/list-bg.png");
+    
+}
+
+.ingredients {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    border: 1px solid goldenrod;
+    justify-content: space-evenly;
 }
