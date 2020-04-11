@@ -1,0 +1,95 @@
+body {
+    padding: 1em;
+    align-items: center;
+    width: 60%;
+}
+
+.headtop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maybedelicious {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+
+}
+
+#delicious {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#saying {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.communication {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13em;
+}
+
+.print {
+    height: 150px;
+}
+
+#printbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cake {
+    width: 758px;
+}
+
+.instructions {
+    text-indent: 20px;
+}
+
+.list {
+    background-image: url("assets/list-bg.png"); 
+}
+.ingredients {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: space-evenly;
+}
+
+#strikeOne {
+    text-decoration: line-through;
+}
+
+#strikeTwo {
+    text-decoration: line-through;
+}
+
+.author {
+    display: flex;
+    height: 75px;
+}
+
+#share {
+    background-color: rgb(131, 65, 12);
+    color: white;
+    
+}
+
+.forknknife {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.bottom {
+    text-align: center;
+}
